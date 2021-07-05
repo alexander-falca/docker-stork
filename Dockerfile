@@ -4,6 +4,5 @@ ADD https://github.com/jameslittle230/stork/releases/download/v1.2.1/stork-ubunt
 
 RUN chmod +x /usr/local/bin/stork && mkdir /stork-input && mkdir /stork-output
 
-ENTRYPOINT [""]
+ENTRYPOINT ["stork"]
 
-CMD ["stork"]
